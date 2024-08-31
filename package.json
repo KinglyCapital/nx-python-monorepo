@@ -1,0 +1,12 @@
+{
+  "name": "nx-python-monorepo-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@nx/js": "19.6.4",
+    "@nxlv/python": "^19.0.2",
+    "nx": "19.6.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-python.debugpy",
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "ms-python.black-formatter",
+    "ms-python.flake8",
+    "nrwl.angular-console",
+  ],
+}

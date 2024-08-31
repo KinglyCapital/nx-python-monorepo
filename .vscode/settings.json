@@ -1,0 +1,27 @@
+{
+    "python.analysis.extraPaths": [
+        // For each library in the project, add the path to the library here to avoid import errors.
+        // For example, if you have a packages in the project packages/my-lib the value should be
+        // "./packages/my-lib"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "python.terminal.activateEnvironment": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "strict",
+    "black-formatter.args": [
+        "--line-length",
+        "100"
+    ],
+    // Exclude files and folders from the explorer to minimize clutter.
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.venv": true,
+        "**/reports": true,
+        "**/coverage": true,
+        "**/.mypy_cache": true,
+    },
+}

@@ -1,0 +1,26 @@
+[tool.nx]
+autoActivate = true
+
+[tool.poetry]
+name = "nx-python-monorepo"
+version = "1.0.0"
+description = ""
+authors = []
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "2.0.2"
+flake8 = "6.0.0"
+pytest = "7.3.1"
+pytest-sugar = "0.9.7"
+pytest-cov = "4.1.0"
+pytest-html = "3.2.0"
+mypy = "^1.11.2"
+
+[build-system]
+requires = ["poetry-core==1.1.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,94 @@
+# ################################################################################################
+# Miscelaneous
+# ################################################################################################
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Lint reports
+reports
+
+# Code coverage
+/coverage
+.coverage
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# ################################################################################################
+# Node.js
+# ################################################################################################
+
+# compiled output
+dist
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# ################################################################################################
+# Nx
+# ################################################################################################
+
+.nx/cache
+.nx/workspace-data
+
+# ################################################################################################
+# Python
+# ################################################################################################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+
+# MyPy
+.mypy_cache/
