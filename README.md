@@ -65,4 +65,4 @@ The following extensions are suggested for a better development experience in Vi
 
 ## Maintainers
 
-- Carlos Cosming - [GitHub](htpps://github.com/ccosming) - [LinkedIn](https://www.linkedin.com/in/ccosming/)
+- Carlos Cosming - [GitHub](https://github.com/ccosming) - [LinkedIn](https://www.linkedin.com/in/ccosming/)
